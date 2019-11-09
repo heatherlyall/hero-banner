@@ -12,20 +12,18 @@ html {
   position: absolute;
   width: 50em;
   display: block;
-   height: 500px;
-
 }
 
 
 .banner {
   position: relative;
-
 }
 
 body {
   overflow: hidden;
   margin: 0;
   align-items: center;
+  max-height: 500px;
 }
 
 h2 {
