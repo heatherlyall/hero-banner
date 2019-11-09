@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -12,16 +13,19 @@ html {
   width: 50em;
   display: block;
    height: 500px;
+
 }
 
 
 .banner {
   position: relative;
+
 }
 
 body {
   overflow: hidden;
   margin: 0;
+  align-items: center;
 }
 
 h2 {
@@ -29,7 +33,6 @@ h2 {
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
   display: inline;
-  align-items: center;
 }
 
 p {
