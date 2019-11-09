@@ -9,16 +9,28 @@ html {
 
 .img-flex {
   position: absolute;
+  width: 50em;
+  display: block;
+   height: 500px;
 }
 
 
 .banner {
   position: relative;
+}
 
+body {
+  overflow: hidden;
+  margin: 0;
 }
 
 h2 {
   font-size: 4rem;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  display: inline;
+  align-items: center;
+
 }
 
 p {
