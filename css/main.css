@@ -10,13 +10,16 @@ html {
 
 .img-flex {
   position: absolute;
-  width: 50em;
+  width: 100%;
   display: block;
 }
 
 
 .banner {
   position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%, -50%);
 }
 
 body {
@@ -24,6 +27,11 @@ body {
   margin: 0;
   align-items: center;
   max-height: 500px;
+  left: auto;
+  bottom: auto;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%, -50%);
 }
 
 h2 {
