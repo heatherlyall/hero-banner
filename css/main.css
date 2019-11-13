@@ -9,29 +9,32 @@ html {
 }
 
 .img-flex {
-  position: absolute;
   width: 100%;
   display: block;
 }
 
-
 .banner {
   position: relative;
+  overflow: hidden;
+  margin: 0;
+  max-height: 500px;
+}
+
+.banner-content {
+  position: absolute;
+  text-align: left;
+  align-items: center;
   left: 50%;
-  top: 50%;
-  transform: translateX(-50%, -50%);
+  transform: translateX(-50%);
+  max-width: 50em;
+  width: 100%;
+  bottom: -.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 body {
-  overflow: hidden;
   margin: 0;
-  align-items: center;
-  max-height: 500px;
-  left: auto;
-  bottom: auto;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%, -50%);
 }
 
 h2 {
@@ -44,4 +47,5 @@ h2 {
 p {
   font-size: 2rem;
   display: inline-block;
+  margin-top: .5rem;
 }
